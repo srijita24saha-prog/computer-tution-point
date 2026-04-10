@@ -384,7 +384,7 @@ const Teachers = () => {
       name: "Biswajit Saha",
       role: "AI Trainer",
       desc: "Expert in Artificial Intelligence and modern computer technologies with years of industry experience.",
-      image: "https://picsum.photos/seed/biswajit/400/400"
+      image: "https://www.aictdarbhanga.in/images/photos/1.jpg"
     },
     {
       name: "Srinkha Saha",
