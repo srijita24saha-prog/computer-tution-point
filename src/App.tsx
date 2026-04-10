@@ -69,7 +69,6 @@ const Navbar = () => {
   target="_blank"
 >
   Enroll Now
-            >
             </a>
           </div>
 
