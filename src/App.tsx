@@ -104,11 +104,10 @@ const Navbar = () => {
               ))}
               <div className="pt-4">
                 <a 
-                  href="#contact" 
-                  onClick={() => setIsOpen(false)}
-                  className="block w-full text-center bg-brand-600 text-white px-5 py-3 rounded-xl text-base font-semibold"
-                >
-                  Enroll Now
+                 href="https://wa.me/919883181928?text=Hello%20I%20want%20to%20enroll%20in%20Computer%20Tution%20Point"
+  target="_blank"
+>
+  Enroll Now
                 </a>
               </div>
             </div>
@@ -146,9 +145,10 @@ const Hero = () => {
               Providing quality education for students from Nursery to Class 10, Class 11 Commerce, and skill-based learning for all ages in Garia.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <a href="#contact" className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 text-white rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-xl shadow-brand-200 group">
-                Enroll Now
-                <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <a href="https://wa.me/919883181928?text=Hello%20I%20want%20to%20enroll%20in%20Computer%20Tution%20Point"
+  target="_blank"
+>
+  Enroll Now
               </a>
               <a href="#contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-700 border-2 border-slate-100 rounded-2xl font-bold text-lg hover:border-brand-200 hover:bg-slate-50 transition-all">
                 Contact Us
