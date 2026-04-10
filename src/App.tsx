@@ -65,10 +65,11 @@ const Navbar = () => {
               </a>
             ))}
             <a 
-              href="#contact" 
-              className="bg-brand-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-brand-700 transition-all shadow-lg shadow-brand-200"
+              href="https://wa.me/919883181928?text=Hello%20I%20want%20to%20enroll%20in%20Computer%20Tution%20Point"
+  target="_blank"
+>
+  Enroll Now
             >
-              Enroll Now
             </a>
           </div>
 
