@@ -288,7 +288,6 @@ const About = () => {
                 <p className="text-slate-900 font-bold">Certified Training Center</p>
                 <p className="text-sm text-slate-500">Recognized for quality education and skill development.</p>
               </div>
-            </div>
           </div>
         </div>
       </div>
