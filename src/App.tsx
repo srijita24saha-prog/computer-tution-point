@@ -288,6 +288,8 @@ const About = () => {
                 <p className="text-slate-900 font-bold">Certified Training Center</p>
                 <p className="text-sm text-slate-500">Recognized for quality education and skill development.</p>
           </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
@@ -483,7 +485,34 @@ const Contact = () => {
 
             <div className="bg-white p-12 lg:p-20">
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                <div>    
+                <div>  
+                  <label className="block text-sm font-bold text-slate-700 mb-2">Full Name</label>
+                  <input 
+                    type="text" 
+                    placeholder="John Doe"
+                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">Phone Number</label>
+                  <input 
+                    type="tel" 
+                    placeholder="9883181928"
+                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-slate-700 mb-2">Message</label>
+                  <textarea 
+                    rows={4}
+                    placeholder="Tell us about your requirements..."
+                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
+                  ></textarea>
+                </div>
+                <button className="w-full bg-brand-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-xl shadow-brand-100">
+                  Send Message
+                </button>
+              </form>
             </div>
           </div>
         </div>
